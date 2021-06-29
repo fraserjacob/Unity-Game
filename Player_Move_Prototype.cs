@@ -28,7 +28,6 @@ public class Player_Move_Prototype : MonoBehaviour
         //controls
         moveX = Input.GetAxis("Horizontal");
         moveY = Input.GetAxis("Vertical");
-        //animation
 
         //player direction
         if (moveX < 0.0f && facingRight == false)
